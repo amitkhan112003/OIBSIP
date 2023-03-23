@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://img.freepik.com/free-vector/indian-tricolor-theme-watercolor-texture-decorative-background-vector_1055-11977.jpg?w=2000") center no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    text-align: center;
+    background: radial-gradient(#eb9327, white);
+}
+
+header {
+    background-color: #fcfcfc;
+    color: #000000;
+    padding: 0;
+}
+
+.foot {
+    background: radial-gradient(#65b532, white);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.pa1 {
+    margin: 10px 0 10px 0;
+    padding: 00px;
+}
+
+
+.name {
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #e8e8ee;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin-left: 10px;
+    padding: 50px;
+}

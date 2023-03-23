@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<h1 class="title">Calculator</h1>
+<div class="container">
+    <div>
+        <input id="output" readonly="readonly" type="text"><br><br>
+        <input class="font grey" onclick="clearOutput()" type="button" value="AC">
+        <input class="font grey" onclick="square()" type="button" value="&sup2">
+        <input class="font grey" onclick="cube()" type="button" value="&sup3">
+        <input class="font orange" onclick="updateOutput('/')" type="button" value="&divide"><br><br>
+        <input class="font black" onclick="updateOutput('7')" type="button" value="7">
+        <input class="font black" onclick="updateOutput('8')" type="button" value="8">
+        <input class="font black" onclick="updateOutput('9')" type="button" value="9">
+        <input class="font orange" onclick="updateOutput('*')" type="button" value="&times"><br><br>
+        <input class="font black" onclick="updateOutput('4')" type="button" value="4">
+        <input class="font black" onclick="updateOutput('5')" type="button" value="5">
+        <input class="font black" onclick="updateOutput('6')" type="button" value="6">
+        <input class="font orange" onclick="updateOutput('-')" type="button" value="-"><br><br>
+        <input class="font black" onclick="updateOutput('1')" type="button" value="1">
+        <input class="font black" onclick="updateOutput('2')" type="button" value="2">
+        <input class="font black" onclick="updateOutput('3')" type="button" value="3">
+        <input class="font orange" onclick="updateOutput('+')" type="button" value="+"><br><br>
+        <input class="font black-long" onclick="updateOutput('0')" type="button" value="0">
+        <input class="font black" onclick="updateOutput('.')" type="button" value=".">
+        <input class="font orange" onclick="calculate()" type="button" value="=">
+    </div>
+</div>
+</body>
+</html>

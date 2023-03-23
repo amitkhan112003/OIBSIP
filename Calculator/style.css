@@ -1,0 +1,89 @@
+*{
+    font-family: 'SF Pro Rounded';
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 43px;
+    color: white;
+    text-align: center;
+    top: 30px;
+}
+
+.grey {
+    width: 100px;
+    height: 100px;
+    background: #A0A0A0;
+    border-radius: 1000px;
+    border-color: transparent;
+}
+
+.font {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.orange {
+    width: 100px;
+    height: 100px;
+    background: #F69906;
+    border-radius: 1000px;
+    border-color: transparent;
+    color: white;
+}
+
+.black {
+    width: 100px;
+    height: 100px;
+    background: #313131;
+    border-radius: 1000px;
+    border-color: transparent;
+    color: white;
+}
+
+.black-long {
+    width: 204px;
+    height: 100px;
+    background: #313131;
+    border-radius: 1000px;
+    border-color: transparent;
+    color: white;
+    text-align: left;
+    padding-left: 38px;
+}
+
+#output {
+    width: 412px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    border-color: transparent;
+    font-size: 86px;
+    line-height: 30px;
+    padding-top: 120px;
+    vertical-align: bottom;
+    color: white;
+    background: black;
+}
+
+img {
+    left: 50%;
+    transform: translateX(50%);
+}
